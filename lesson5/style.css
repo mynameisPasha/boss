@@ -15,7 +15,7 @@ font-family: fantasy, serif;
 .d input {
   position: absolute;
   top:750px;
-  left:350px;	
+  left:400px;	
   width: 55%;
   height: 42px;
   padding-left: 10px;
@@ -29,11 +29,25 @@ font-family: fantasy, serif;
 .d button {
   position: absolute; 
   top:750px;
-  right: 420px;
+  right: 370px;
   width: 45px;
   height: 43px;
   border: 2px solid;
   background: #FFD700;
   border-radius: 0 5px 5px 0;
   cursor: pointer;
+}
+
+.knopka {
+
+	position: absolute;
+	top: 500px;
+	right: 670px;
+}
+
+.knopka2 {
+
+	position: absolute;
+	top: 500px;
+	right: 270px;
 }
