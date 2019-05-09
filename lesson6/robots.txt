@@ -1,8 +1,8 @@
 User-agent: *
-Disallow:/kontakty/
+Disallow:/no-index/kontakty.html
 
 User-Agent: Googlebot
-Allow:/o_kompanii/
+Allow:/o_kompanii.html
 Disallow: /
 
 
