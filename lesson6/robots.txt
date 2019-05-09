@@ -1,0 +1,9 @@
+User-agent: *
+Disallow:/kontakty/
+
+User-Agent: Googlebot
+Allow:/o_kompanii/
+Disallow: /
+
+
+Sitemap: https://HeyYou.com.ua/sitemap.xml
