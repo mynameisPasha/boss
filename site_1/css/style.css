@@ -1,0 +1,132 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body,html {
+	height: 100%;
+	position: relative;
+}
+
+body {
+	font-family: 'vidaloka_regular';
+	font-size: 14px;
+	color: black;
+}
+
+/*font-family: 'back_to_black_demoregular';*/
+
+
+.header {
+	position: absolute;
+	z-index: 2;
+	color: white;
+	top: 65px;
+	left: 390px;
+}
+
+.line {
+    z-index: 2;
+	border-bottom: 2px solid grey;
+}
+
+
+ .banner-home {
+ 	position: absolute;
+ 	left: 0;
+ 	top: 0;
+ 	z-index: 1;
+ 	background: url(../images/fone-home.jpg) no-repeat;
+ 	background-size: cover;
+ 	padding-top: 357px;
+ 	padding-bottom: 240px;
+ 	width: 100%;
+ 	height: 80%;
+ }
+
+ .for_page {
+ 	position: relative;
+ 	min-height: 100%;
+ }
+
+ .logo {
+ 	margin-right: 140px;
+    padding-top: 10px;
+ }
+
+ .menu {
+ 	margin-left: 0px;
+ 	padding-left: 0px;
+ 	padding-top: 4px;
+ }
+
+ul li a{
+	font-family: 'vidaloka_regular';
+	font-size: 20px;
+	color: white;
+}
+
+ul{
+
+ display: inline-flex;
+ justify-content: center;
+ list-style: none;
+}
+
+li {
+	padding: 15px;
+}
+
+
+li a:hover{
+	color: #ffeb3b;
+	text-decoration: none;
+}
+
+
+a {
+    line-height: 1;
+    display: inline-block;
+    color:#ffeb3b;
+    text-decoration:none;
+    cursor: pointer;
+
+}
+
+ul li a:after {
+    position: absolute;
+    margin-top: 56px;
+    display: block;
+    content: "";
+    height: 2px;
+    width: 0%;
+    background-color: #ffeb3b;
+    transition: width .2s ease-in-out;
+    z-index: 3;
+}
+
+ul li a:hover:after {
+    width: 50px;
+    margin-left: 5px;
+}
+
+.search {
+	position: absolute;
+	top: -50px;
+	left: 80%;
+	display: inline-flex;
+}
+
+.search:hover > .search-text{
+	width: 150px;
+	transition: 1s;
+	
+}
+
+.search-text{
+	border-radius: 30px;
+	text-align: center;
+	margin-right: 10px;
+	border:none;
+	width: 0;
+}
