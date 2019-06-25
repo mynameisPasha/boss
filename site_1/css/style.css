@@ -16,20 +16,17 @@ body {
 
 /*font-family: 'back_to_black_demoregular';*/
 
-
 .header {
-	position: absolute;
+	position: relative;
 	z-index: 2;
 	color: white;
-	top: 65px;
-	left: 22%;
-}
+	padding-top: 65px;
+ }
 
 .line {
     z-index: 2;
 	border-bottom: 2px solid grey;
 }
-
 
  .banner-home {
  	position: absolute;
@@ -38,11 +35,15 @@ body {
  	z-index: 1;
  	background: url(../images/fone-home.jpg) no-repeat;
  	background-size: cover;
- 	padding-top: 357px;
+ 	padding-top: 300px;
  	padding-bottom: 240px;
  	width: 100%;
- 	height: 80%;
+ 	height: 950px;
  }
+
+#next-slider {
+
+}
 
  .for_page {
  	position: relative;
@@ -77,37 +78,18 @@ li {
 	padding: 15px;
 }
 
+.menu li a{
+	transition: 0s;
+	color: white;
+	font-size: 15px;
+	text-transform: uppercase;
+}
 
-li a:hover{
-	color: #ffeb3b;
+.menu li a:hover {
+	color: yellow;
 	text-decoration: none;
-}
-
-
-a {
-    line-height: 1;
-    display: inline-block;
-    color:#ffeb3b;
-    text-decoration:none;
-    cursor: pointer;
-
-}
-
-ul li a:after {
-    position: absolute;
-    margin-top: 56px;
-    display: block;
-    content: "";
-    height: 2px;
-    width: 0%;
-    background-color: #ffeb3b;
-    transition: width .2s ease-in-out;
-    z-index: 3;
-}
-
-ul li a:hover:after {
-    width: 50px;
-    margin-left: 5px;
+	border-bottom: solid 1px yellow;
+	padding-bottom: 58px;
 }
 
 .search {
@@ -115,18 +97,287 @@ ul li a:hover:after {
 	top: -50px;
 	left: 80%;
 	display: inline-flex;
+	color:black;
 }
 
 .search:hover > .search-text{
-	width: 150px;
+	width: 180px;
 	transition: 1s;
+	outline: none;
 	
 }
 
 .search-text{
-	border-radius: 30px;
-	text-align: center;
+	border-radius: 15px;
 	margin-right: 10px;
 	border:none;
 	width: 0;
+	text-align: center;
 }
+
+.block {
+	font-family: 'vidaloka_regular';
+	padding-top: 900px;
+	z-index: 3;
+	padding-left: 15%;
+	font-size: 45px;
+	padding-bottom: 150px;
+}
+
+.words {
+	color: yellow;
+	border-bottom: 2px solid yellow;
+}
+
+
+
+
+/*block2*/
+
+.icon {
+	font-family: 'vidaloka_regular';
+	text-align: center;
+	display: inline;
+	padding-bottom: 100px;
+	padding-left: 0px;
+}
+
+.icon p{
+	font-size: 20px;
+}
+
+.icon h2 {
+	font-size: 20px;
+}
+
+.icon_bl {
+	background: url(../images/icon1.png) no-repeat;
+	width: 50px;
+}
+
+.icon img {
+	    vertical-align: top;
+}
+
+.block2 {
+	padding-bottom: 70px;
+	padding-left: 150px;
+	padding-right: 150px;
+}
+
+.icon_bl {
+	font-family: 'vidaloka_regular';
+	padding: 25px;
+}
+
+.block2_txt {
+	width: 350px;
+	text-align: justify;
+	padding-left: 34px;
+	margin-left: 31px;
+	border-left: 1px solid grey;
+}
+
+.block2_box {
+	display: inline-flex;
+}
+
+.block2_box:hover .icon_bl{
+    background: url(../images/icon2.png) no-repeat;
+	width: 50px;
+}
+
+/*block2*/
+
+
+
+
+
+.block3 {
+	padding-left: 240px;
+	padding-right: 240px;
+	width: 100%;
+	height:400px;
+	background: url(../images/fon.jpg) no-repeat;
+	color: white;
+	font-family: 'vidaloka_regular';
+}
+
+.block3_words1 {
+	font-size: 55px;
+	color: white;
+}
+
+.block3_words2 {
+	font-size: 20px;
+	color: yellow;
+}
+
+.block3_box {
+	padding-top: 110px;
+	text-align: center;
+}
+
+
+
+
+/*galery*/
+
+.block4{
+	margin-top: 50px;
+}
+
+.block4 h2{
+    font-family: 'vidaloka_regular';
+    font-size: 36px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.block4 p{
+	font-family: 'vidaloka_regular';
+	font-size: 16px;
+	max-width: 750px;
+	width: 100%;
+	margin: 0 auto;
+	padding-bottom: 50px;
+} 
+
+.block4 .nav-tabs{
+	border-bottom: inherit;
+	margin-bottom: 30px;
+	margin-left: 160px;
+}
+
+.block4 .nav-tabs>li>a {
+	margin-right: 2px;
+	line-height: normal;
+	border: 1px solid #ffda00;
+	border-radius: inherit;
+	font-size: 18px;
+	color: #181a1f;
+	padding: 10px 40px;
+}
+
+.block4 .nav-tabs>li.active>a,
+.block4 .nav-tabs>li.active>a:focus,
+.block4 .nav-tabs>li.active>a:hover{
+	background: #ffda00;
+	border: 2px solid trasparent;
+	cursor: pointer;
+}
+
+.tab-content {
+	display: grid;
+	}
+
+/*galery*/
+
+
+
+/*block5*/
+
+.block5 {
+	margin-top: 143px;
+}
+
+.block5 h2{
+    font-family: 'vidaloka_regular';
+    font-size: 36px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.block5 .block5_txt p{
+	font-family: 'vidaloka_regular';
+	font-size: 16px;
+	max-width: 750px;
+	width: 100%;
+	margin: 0 auto;
+	padding-bottom: 120px;
+	color: #b9b8b8;
+} 
+
+.block5_box {
+	min-width: 350px;
+	min-height: 300px;
+	background: #ff5252;
+	color: white;
+}
+
+.block5_box2 {
+	min-width: 350px;
+	min-height: 300px;
+	background: #4caf50;
+	color: white;
+}
+
+.block5_box3 {
+	min-width: 350px;
+	min-height: 300px;
+	background: #673ab7;
+	color: white;
+}
+
+.block5_box4 {
+	min-width: 350px;
+	min-height: 300px;
+	background: #2196f3;
+	color: white;
+}
+
+.block5_box5 {
+	min-width: 350px;
+	min-height: 300px;
+	background: #ffeb3b;
+	color: white;
+}
+
+.block5_box6 {
+	min-width: 350px;
+	min-height: 300px;
+	background: #00bcd4;
+	color: white;
+}
+
+.block5 .block5_boxes {
+	margin-bottom: 300px;
+}
+
+/*block5*/
+
+
+/*footer*/
+
+.footer {
+	background: url(../images/footer-fon.jpg) repeat;
+	min-width: 100%;
+	height: 280px;
+	padding-top: 36px;
+	padding-bottom: 46px;
+	
+}
+
+.footer-logo {
+	text-align: center;
+
+}
+
+.footer-text {
+	font-family: 'vidaloka_regular';
+	text-align: center;
+	font-size: 14px;
+	color: white;
+	padding-top: 40px;
+}
+
+.footer-tx {
+	color: #ffda00;
+}
+
+.share42init {
+	text-align: center;
+	padding-top: 25px;
+}
+
+/*footer*/
