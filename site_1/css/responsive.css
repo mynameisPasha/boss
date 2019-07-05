@@ -12,7 +12,19 @@
     font-family: 'vidaloka_regular';
 }
 
+.block7_main {
+	width: 970px;
+	margin: 0 auto;
 }
+
+.block7_item img {
+	width: 100%;
+}
+
+.header .container {
+    padding-right: 100px;
+}
+
 
 @media(max-width:991px){
 
@@ -26,8 +38,48 @@
     font-family: 'vidaloka_regular';
 }
 
+.header .container {
+    padding-right: 75px;
 }
+
+.search {
+	position: absolute;
+	top: -50px;
+	left: 80%;
+	display: inline-flex;
+	color:black;
+}
+
+.search:hover > .search-text{
+	width: 130px;
+	transition: 1s;
+	outline: none;
 	
+}	
+
+#block4 .nav-tabs {
+    border-bottom: inherit;
+    margin-bottom: 30px;
+    margin-left: 84px;
+}
+
+.block6_txt {
+    font-size: 14px;
+    font-family: 'vidaloka_regular';
+    padding-top: 120px;
+    padding-bottom: 70px;
+    padding-left: 222px;
+    padding-right: 214px;
+}
+
+.block7_main .col-xs-12 {
+    width: 80%;
+}
+
+
+
+
+
 
 @media(max-width:767px){
 
@@ -41,11 +93,54 @@
     font-family: 'vidaloka_regular';
 }
 	
+.search {
+	position: absolute;
+	top: -50px;
+	left: 80%;
+	display: inline-flex;
+	color:black;
 }
+
+.search:hover > .search-text{
+	width: 100px;
+	transition: 1s;
+	outline: none;
+	
+}
+
+.block3_box {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+#block4 .nav-tabs {
+    border-bottom: inherit;
+    margin-bottom: 30px;
+    margin-left: -40px;
+}
+
+.block6_txt {
+    font-size: 14px;
+    font-family: 'vidaloka_regular';
+    padding-top: 120px;
+    padding-bottom: 70px;
+    padding-left: 222px;
+    padding-right: 214px;
+}
+
+.block7_main .col-xs-12 {
+    width: 56%;
+}
+
+
+
+
 
 @media(max-width:470px){
 
-	.block3 {
+
+.block3 {
     padding-left: 40px;
     padding-right: 40px;
     width: 100%;
@@ -55,7 +150,6 @@
     font-family: 'vidaloka_regular';
 }
 	
-}
 
 @media(max-width:400px){
 	
