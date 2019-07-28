@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+	<meta charset="utf-8">
+	<title>18</title>
+</head>
+
+
+
+<body>
+  
+
+</body>
+
+<script>
+
+
+
+ function Msg(name){
+  this.name = name;
+  this.can = true;
+ }
+ var msg2 = new Msg("Hello");
+
+ 
+
+ var anim = new function(){
+  this.name = "Nastya";
+  this.canBot = true;
+ }
+ var anim = {
+  name: "Nastya";
+  canBot: true;
+ }
+
+
+
+ function BigBananas(){
+  this.name = "Bananas";
+  return{name: "Big Banana"};
+ }
+ alert(new BigBananas().name);
+
+
+
+
+
+/* constructor method */
+
+
+function User(name){
+  this.name = name;
+  this.SayHi = function(){
+  
+  alert("Kakoe vashe imya " + this.name);
+  };
+};
+var Vanya = new User("Vanya");
+
+Vanya.SayHi();
+ 
+
+
+var user = {
+  name : 'Nastya',
+  LastName: 'Smith',
+  getFullName: function(){
+    alert(this.name + ' ' + this.LastName);
+  }
+}
+
+user.getFullName();
+
+
+
+
+
+
+
+
+</script>
+
+</html>
